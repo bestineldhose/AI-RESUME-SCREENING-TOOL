@@ -103,13 +103,13 @@ function App() {
   return (
     <div className="app">
       <header>
-        <h1>🤖 AI Resume Screener</h1>
+        <h1><b>🤖 AI Resume Screener</b></h1>
         <p>Upload resumes & get instant AI match scores</p>
       </header>
 
       <main>
         <section className="card">
-          <h2><b>1. Select Job Position</b></h2>
+          <h2><b><strong>1. Select Job Position</strong></b></h2>
           <select 
             value={selectedJob} 
             onChange={e => setSelectedJob(e.target.value)}
